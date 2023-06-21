@@ -21,6 +21,7 @@ const Profile = () => {
   return (
     <section>
       <h1>Perfil</h1>
+      <h2>Teste</h2>
       <p>Preview Image</p>
       <form className={formStyles.form_container}>
         <Input
