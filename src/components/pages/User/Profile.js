@@ -69,6 +69,7 @@ const Profile = () => {
 
   return (
     <section>
+<<<<<<< HEAD
       <div className={styles.profile_container}>
         <h1>Perfil</h1>
         {(user.image || preview) && (
@@ -79,6 +80,12 @@ const Profile = () => {
       </div>
       
       <form onSubmit={handleSubmit} className={formStyles.form_container}>
+=======
+      <h1>Perfil</h1>
+      <h2>Teste</h2>
+      <p>Preview Image</p>
+      <form className={formStyles.form_container}>
+>>>>>>> d8ddc6f4b7aaca6458bdc0c8d7dfb1db2309296e
         <Input
           text="Imagem"
           type="file"
