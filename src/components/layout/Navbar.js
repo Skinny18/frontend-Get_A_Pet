@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState, useEffect } from 'react'
 import {Link} from 'react-router-dom'
 import styles from './Navbar.module.css'
 
@@ -6,8 +6,12 @@ import Logo from '../../assets/img/logo.png'
 
 //Context
 import { Context } from '../../context/UserContext'
+import RoundedImage from './RoundedImage'
+
+
 
 const Navbar = () => {
+
 
     const {authenticated, logout} = useContext(Context)
   return (
@@ -39,8 +43,8 @@ const Navbar = () => {
                 </li>
                 </>
             )}
-            
         </ul>
+        
     </nav>
    )
 }
